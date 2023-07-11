@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script>
+    window.addEventListener('DOMContentLoaded', function(){
+        let menu = document.querySelector('#item1').innerText;
+        let html = '<strong>[' + menu + ']セール中！</strong>';
+        document.querySelector('#sale').innerHTML = html;
+    });
+</script>
+
+</head>
+<body>
+    <ul>
+        <h1 id="item1">チョコレートパフェ</h1>
+        <li id="item2">チーズケーキ</li>
+    </ul>
+    <div id = "sale"></div>
+    <h1>hello world</h1>
+</body>
+</html>
